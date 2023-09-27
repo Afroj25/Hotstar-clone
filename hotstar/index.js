@@ -66,7 +66,7 @@ const createSlide = () => {
 
     if(sliders.length)
     {
-        sliders[0].style.marginleft ='calc(-${100 *(sliders.length - 2)}% -${ 30 * (sliders.length - 2)}px)';
+        sliders[0].style.marginleft =`calc(-${100 *(sliders.length - 2)}% -${ 30 * (sliders.length - 2)}px)`;
     }
 }
 for( let i=0; i<6;i++){
